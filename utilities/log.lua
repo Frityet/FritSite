@@ -5,7 +5,7 @@
 
 local export = {}
 
-local pretty = require("pl.pretty")
+-- local pretty = require("pl.pretty")
 
 -- local l_tostring = tostring
 -- ---@param v any

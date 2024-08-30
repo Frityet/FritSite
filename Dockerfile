@@ -19,5 +19,6 @@ COPY . /app
 
 RUN luarocks --lua-version=5.4 init
 RUN ./luarocks make
+RUN ./luarocks-client make
 
 CMD [ "./lua", "scripts/serve.lua" ]
