@@ -31,7 +31,7 @@
         "site/?.lua",
         "site/?/init.lua"
     ],
-    "workspace.useGitIgnore": false,
+    "workspace.useGitIgnore": true,
     "runtime.pathStrict": true,
     "runtime.version": "LuaJIT",
     "workspace.ignoreDir": [

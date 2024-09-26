@@ -1,5 +1,5 @@
 local config = require("lapis.config")
-local net_utils = require("utilities.net-utilities")
+local net_utils = require("utilities.network")
 
 local port = net_utils.get_free_port()
 config("development", {
